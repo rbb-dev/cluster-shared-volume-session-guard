@@ -1,0 +1,9 @@
+# Build output. Attach the binary to a GitHub Release instead of committing it.
+*.exe
+*.pdb
+
+# Fallback log, written beside the executable only when the event log is unavailable.
+guard.log
+
+# Open stuck-session reports, kept by the service across restarts.
+guard.state*
